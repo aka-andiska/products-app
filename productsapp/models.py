@@ -6,4 +6,4 @@ class Products(models.Model):
     title = models.CharField(max_length = 255)
     description = models.TextField()
     created_date = models.DateTimeField(auto_now_add = True)
-    published_date = models.DateTimeField(auto_now = True)
+    update_date = models.DateTimeField(auto_now = True)
